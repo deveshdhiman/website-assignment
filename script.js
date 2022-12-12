@@ -11,7 +11,7 @@ http.onload = function(){
             <div class="feature-col">
                 <h3>${item.name}</h3>
                 <br>
-                <a href=${item.eula_url}>click here to know more</a>
+                <a href="#" class="col_items">Read More</a>
             </div>
 
             `;

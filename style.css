@@ -4,6 +4,11 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+.text-center {
+    text-align: center;
+}
+
 .common-h5 {
     color: #3b3663;
     font-size: 14px;
@@ -133,7 +138,7 @@ button:hover{
     bottom: 20px;
     right: 25px;
     cursor: pointer;
-    background-color: #f47a14;
+    background-color: #035e1d;
     color: #fff;
     width: 40px;
     height: 40px;
@@ -171,7 +176,7 @@ p {
 }
 
 .products{
-    display: grid;
+    display:grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
     grid-gap: 20px;
     margin: 50px auto;
@@ -193,7 +198,7 @@ p {
 }
 
 .feature-col:hover {
-    background-color: #3b3663;
+    background-color: #024b18;
 }
 
 .feature-col:hover h3 {
@@ -207,6 +212,13 @@ p {
 .feature-col h3 {
     font-family: 'Rubik', sans-serif;
     font-size: 18px;
+    font-weight: 600;
+}
+
+.feature-col a {
+    color: #9d710a;
+    font-size: 13px;
+    font-family: "Rubik";
     font-weight: 600;
 }
 
@@ -247,6 +259,137 @@ p {
 
 .owl-carousel.owl-theme.owl-loaded.owl-drag {
     margin-top: 30px;
+}
+/*blog css*/
+
+.blog-col {
+    align-items: center;
+    float: left;
+    width: 40%;
+    margin-left: 7%;
+    margin-top: 45px;
+    overflow: hidden;
+}
+
+.blog-col span {
+    color: #02452b;
+    font-size: 14px;
+    font-family: "Nunito";
+    font-weight: 400;
+    padding: 20px 0px 6px 0px;
+    display: inline-block;
+}
+
+.blog-col h3 {
+    color: #696687;
+    font-size: 19px;
+    font-family: "Nunito";
+    font-weight: 800;
+}
+
+.blog-col a {
+    color: #ff881f;
+    font-size: 13px;
+    font-family: "Rubik";
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 25px;
+    display: inline-block;
+}
+
+.blog-col a {
+    color: #ff881f;
+    font-size: 13px;
+    font-family: "Rubik";
+    font-weight: 600;
+    text-decoration: none;
+    margin-top: 25px;
+    display: inline-block;
+    position: relative;
+    transition: all 0.5s ease;
+}
+
+.blog-col a:after {
+    content: "\f178";
+    font-family: "FontAwesome";
+    margin-left: -14px;
+    padding-left: 12px;
+    transition: all 0.5s ease;
+    visibility: hidden;
+}
+
+.blog-col a:hover:after {
+    visibility: visible;
+    margin-left: 14px;
+}
+.head-common5{
+    font-size: 30px;
+    line-height: 30px;
+}
+.head-common3{
+    font-size: 30px;
+    line-height: 20px;
+}
+.form-par {
+    background-image: linear-gradient(20deg, #ff841f 0%, #ff9721 57%);
+    padding: 30px 40px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.form-com {
+    width: 100%;
+    height: 40px;
+    margin: 10px 0px;
+    padding: 10px 10px;
+}
+
+.form-par h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 800;
+    font-family: "Nunito";
+    margin-bottom: 25px;
+}
+
+input.submit-btn {
+    color: #fff;
+    border: none;
+    background-image: linear-gradient(180deg, #059DDE 0%, #1A2E84 100%);
+    padding: 14px 40px;
+    margin: 20px auto 0px;
+    display: block;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+input.submit-btn:hover {
+    background-image: linear-gradient(180deg, #1A2E84 0%, #059DDE 100%);
+}
+
+.img-responsive {
+    display: block;
+    max-width: 100%;
+    height: 40%;
+}
+
+.logo img {
+    width: 180px;
+}
+
+.blog-col img {
+    border-radius: 5px;
+    transition: all 0.5s ease-in;
+}
+
+.blog-col img:hover {
+    transform: scale(1.1, 1.1);
+}
+
+.menu {
+    float: right;
+    width: 70%;
 }
 
 
