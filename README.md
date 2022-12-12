@@ -2,8 +2,7 @@
 SUSE Prototype website assignment
 
 Descritpion:
-Trying to enhance the view and feel for user visiting the website. With minimal click for user trying to search for information from the website.
-
+Adding a different flavour to website for user visiting. Idea is to have minimal click for user trying to search for information from the website.
 Steps to Run the application:
 1) Clone the repo 
 2) use any IDE of your preference.(I used VS editor). 
