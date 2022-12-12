@@ -1,7 +1,16 @@
+/**
+ * @description: Creating XMLHttp-Request object to send the request 
+ * @author devesh
+ */
+
 let http = new XMLHttpRequest(); // creating xmlhttp-request object
 http.open('get', 'items.json', true); // preparing request with open object
 http.send(); // sending the request
 
+/**
+ * @description: function to load content from JSON dynamically
+ * @author devesh
+ */
 http.onload = function(){
     if(this.readyState == 4 && this,this.status == 200){
         let items = JSON.parse(this.responseText);
